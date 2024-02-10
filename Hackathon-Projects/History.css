@@ -1,0 +1,99 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7ff; /* bluish background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* white background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    background-color: #3498db; /* bluish background */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff; /* white text */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #2980b9; /* slightly darker bluish text on hover */
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50; /* dark bluish color */
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .history-table th, .history-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* light gray border */
+  }
+  
+  .history-table th {
+    background-color: #3498db; /* bluish background for table header */
+    color: #fff; /* white text */
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+    vertical-align: middle; /* Align with the text vertically */
+  }
+  
+  footer {
+    background-color: #3498db; /* bluish background */
+    padding: 21px 0;
+    text-align: center;
+    color: #fff; /* white text */
+    margin-top: 20px;
+  }
+  
+  .qr-code-scanner {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .qr-code-scanner img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .qr-code-scanner p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App</title>
+    <link rel="stylesheet" href="C:\Users\dell\Desktop\Hackathon-Projects\styles.css">
+</head>
+<body>
+    <header>
+    <img src="C:\Users\dell\Desktop\Hackathon-Projects\2PayLogo (1).png" alt="Finance App Logo" class="logo">
+    <nav>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li class="active"><a href="C:\Users\dell\Desktop\Hackathon-Projects\credit.html">Credit</a></li>
+            <li class="active"><a href="C:\Users\dell\Desktop\Hackathon-Projects\Insurance.html">Insurance</a></li>
+            <li class="active"><a href="C:\Users\dell\Desktop\Hackathon-Projects\wealth.html">Wealth</a></li>
+            <li class="active"><a href="C:\Users\dell\Desktop\Hackathon-Projects\History.html">History</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="container">
+      <h1>PeerPay</h1>
+        <div class="account">
+            <h2>Checking Account</h2>
+            <p>Balance: $<span id="checkingBalance">1000</span></p>
+            <input type="number" id="checkingAmount" placeholder="Enter amount">
+            <button onclick="deposit('checking')">Deposit</button>
+            <button onclick="withdraw('checking')">Withdraw</button>
+        </div>
+        <div class="account">
+            <h2>Savings Account</h2>
+            <p>Balance: $<span id="savingsBalance">2000</span></p>
+            <input type="number" id="savingsAmount" placeholder="Enter amount">
+            <button onclick="deposit('savings')">Deposit</button>
+            <button onclick="withdraw('savings')">Withdraw</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+  <footer>
+    <div class="qr-code-scanner">
+        <img src="scanner_icon.png" alt="QR Code Scanner Icon">
+        <p>Scan QR Code</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

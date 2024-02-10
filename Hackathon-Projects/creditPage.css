@@ -1,0 +1,110 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7ff; /* bluish background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* white background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    background-color: #3498db; /* bluish background */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff; /* white text */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #2980b9; /* slightly darker bluish text on hover */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50; /* dark bluish color */
+  }
+  
+  .credit-info, .credit-report {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc; /* light gray border */
+    border-radius: 8px;
+    background-color: #f0f5ff; /* bluish tint */
+  }
+  
+  .credit-info h2, .credit-report h2 {
+    color: #2980b9; /* bluish color */
+  }
+  
+  .credit-info p, .credit-report p {
+    color: #34495e; /* darker bluish color */
+  }
+  
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #3498db; /* bluish button */
+    color: #ffffff; /* white text */
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* slightly darker bluish button on hover */
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+    vertical-align: middle; /* Align with the text vertically */
+  }
+  
+  footer {
+    background-color: #3498db; /* bluish background */
+    padding: 21px 0;
+    text-align: center;
+    color: #fff; /* white text */
+    margin-bottom: 0;
+  }
+  
+  .qr-code-scanner {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+  
+  .qr-code-scanner img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .qr-code-scanner p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
